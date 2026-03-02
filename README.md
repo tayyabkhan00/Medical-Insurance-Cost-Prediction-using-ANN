@@ -72,3 +72,63 @@ insurance_project/
 ├── scaler.pkl
 └── README.md
 ```
+### ⚙️ Installation & Setup
+
+## 1️⃣ Clone Repository
+```bash
+git clone https://github.com/your-username/insurance-ann-project.git
+cd insurance-ann-project
+```
+## 2️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+## ▶️ Train the Model
+```bash
+python train_model.py
+```
+This will:
+- Train the ANN model
+- Save insurance_model.pth
+- Save scaler.pkl
+
+### 🌐 Run Streamlit App
+```bash
+streamlit run app.py
+```
+Open the browser link shown in terminal.
+
+### 🖥️ Streamlit App Features
+- Interactive sliders and dropdowns
+- Real-time prediction
+- Clean user interface
+- Business-ready prototype
+
+### 💡 Business Use Case
+This system can help:
+- Insurance companies estimate premium costs
+- Customers estimate expected insurance expenses
+- Healthcare analytics platforms build pricing systems
+
+### 📚 Key Learnings
+
+- Handling categorical variables with One-Hot Encoding
+- Importance of feature scaling in neural networks
+- Building custom ANN architecture in PyTorch
+- Saving and loading trained models
+- Deploying ML/DL models using Streamlit
+- Creating end-to-end ML applications
+
+### 📌 Future Improvements
+
+- Hyperparameter tuning
+- Add regularization (Dropout)
+- Compare with Linear Regression / XGBoost
+- Deploy on Streamlit Cloud
+- Add visual analytics dashboard
+
+### 👨‍💻 Author
+
+Tayyab Khan<br>
+B.Tech — AI & Data Science<br>
+Aspiring Data Scientist & AI Engineer
